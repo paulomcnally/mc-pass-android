@@ -1,4 +1,29 @@
 <resources>
     <string name="app_name">Authenticator</string>
     <string name="action_settings">Settings</string>
+    <string name="content_description">TODO</string>
+
+    <string name="activity_setup_title">Configuración</string>
+    <string name="activity_setup_description">Puede agregar un código SALT seleccionando una de las siguientes opciones:</string>
+    <string name="activity_setup_item_barcode">Escanear un código de barras</string>
+    <string name="activity_setup_item_barcode_cancelled">Escaneo cancelado</string>
+    <string name="activity_setup_item_new">Generar código SALT</string>
+
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_save">Guardar</string>
+    <string name="dialog_ok">Aceptar</string>
+
+    <string name="dialog_add_title">Nuevo servicio</string>
+    <string name="dialog_add_service">Servicio</string>
+    <string name="dialog_add_username">Nombre de usuario o correo electrónico</string>
+
+    <string name="dialog_add_service_required">El nombre del servicio es requerido.</string>
+    <string name="dialog_add_username_required">El nombre de usuario es requerido.</string>
+
+    <string name="dialog_delete_title">¿Desea eliminar este registro?</string>
+    <string name="dialog_delete_content">El registro sera eliminado de forma permanente.</string>
+
+    <string name="clipboard_message">Contraseña copiada al portapapeles!</string>
+    <string name="scanner_message">Se ha vinculado el código SALT!</string>
+    <string name="generate_message">Se ha generado el código SALT!</string>
 </resources>

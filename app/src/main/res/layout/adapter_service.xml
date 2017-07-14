@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/service_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/default_padding">
+
+    <LinearLayout
+        android:id="@+id/container_character"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/circle"
+        android:gravity="center_vertical|center_horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/icons" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/container_character"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textColor="@color/primaryText"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondaryText" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
